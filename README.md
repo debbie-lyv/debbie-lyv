@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @debbie-lyv
 - 👀 I’m interested in creating programs which can change people's lives
 - 🌱 I’m currently learning about web applications and data structures 
-- 💞️ I’m looking to collaborate on anything
+- 💞️ I’m looking to collaborate on anything!
 - 📫 You can contact me with my email limy0@sewanee.edu
 
 <!---
