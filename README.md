@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @debbie-lyv
-- 👀 I’m interested in creating programs which can change people's lives
-- 🌱 I’m currently learning about interactive computer graphics, algorithms, deep learning and ios development 
+- ✨ I’m an international student from Malaysia, and I'm currently a senior at Sewanee: The University of the South
+- 🌱 I’m learning about interactive computer graphics, algorithms, deep learning and ios development 
 - 💞️ I’m looking to collaborate on anything!
 - 📫 You can contact me with my email limy0@sewanee.edu
 
