@@ -1,0 +1,328 @@
+@font-face {
+  font-family:  customFont;
+  src:  url("Poppins-Light.ttf");
+}
+
+/* general styling */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #D9B08C;
+}
+
+a:link {
+  color: #2C3531;
+  font-family: customFont;
+}
+
+a:visited {
+  color: #2C3531;
+}
+
+h1 {
+  color:  #D9B08C;
+  font-family: customFont;
+  font-size: 3em;
+}
+
+h2 {
+  color:  #D9B08C;
+  font-family: customFont;
+  font-size: 2em;
+}
+
+h4 {
+  color:  #D9B08C;
+  font-family: customFont;
+  font-size: 1em; 
+  text-align: left;
+  margin:  1em;
+}
+
+p {
+  color:  #2C3531;
+  font-family: customFont;
+}
+
+body {
+  color:  #D9B08C;
+  font-family: customFont;  
+}
+
+/* header styling */
+
+html {
+  background:  linear-gradient(to bottom, #256266, #1F2833);
+  background-attachment: fixed;
+}
+
+#user {
+  font-size: 1.5em;
+  margin: 2em;
+  border-radius: 5px;
+  border:  1px solid #FFCB9A;
+  width: 9em;
+  text-align: center;
+}
+
+/* navigation bar styling */
+
+.menu{
+  list-style-type: none;
+  text-align: center; 
+  margin-left: -2em;
+}
+
+.menuOptions {
+  color: #2C3531;
+  display: inline-block;
+}
+
+.indexOptions {
+  display:  inline-block;
+  height:  auto;
+  background-color: #FFCB9A;
+  border-radius: 8px;
+  padding:  1em;
+  color:  #2C3531;
+  width:  15em;
+  margin: 2em;
+  
+}
+
+input.menulinks{
+  width:  15em;
+  padding: 0.9em;
+}
+.menulinks, .dropdownItems{
+  display:block;
+  width:  4em;
+  margin-top: 1em;  
+  padding: 0.5em; 
+  background-color: #FFCB9A; 
+  border-radius: 6px;  
+  border:  1px solid black;
+      margin-left: -0.25em;
+}
+
+li.dropdown {
+  display:  inline-block;
+}
+
+.dropdownLinks {
+  display: none;
+  position: absolute;
+  background-color: #FFCB9A;
+  z-index: 1;
+  padding: 0.5em; 
+  border-radius: 6px;   
+  border:  1px solid black;     
+}
+
+.dropdownLinks a {
+  text-decoration: none;
+  display: block;
+  text-align: left;  
+}
+
+.dropdown:hover .dropdownLinks {
+  display: block;
+}
+
+#loginTitle {
+  color: #2C3531;
+}
+
+/* index page styling */
+
+#indexSubHeader {
+  position: relative;
+}
+
+#booksImage {
+  position:  relative;  
+  width:  40em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.buyOption1 {
+  display:  inline-grid;
+  height:  auto;
+  background-color: #FFCB9A;
+  border-radius: 8px;
+  padding:  1em;
+  color:  #2C3531;
+  width:  15em;
+  height:  10em;
+  transform: translate(-105%, 0);
+  top: 30em ;
+  position: absolute;
+}
+
+.buyOption2 {
+  display:  inline-grid;
+  height:  auto;
+  background-color: #FFCB9A;
+  border-radius: 8px;
+  padding:  1em;
+  color:  #2C3531;
+  width:  15em;
+  height:  10em;
+  top: 30em ;
+  position: absolute;
+}
+
+
+.buyOption1:hover {
+  background-color: #D9B08C;
+  height: 11em;
+  width:  16em;
+}
+
+.buyOption2:hover {
+  background-color: #D9B08C;
+  height: 11em;
+  width:  16em;
+}
+
+#sellLink:hover {
+  background-color: #D9B08C;  
+}
+
+#sellLink {
+  background-color: #FFCB9A;
+  border-radius: 8px; 
+  padding:  3em;
+  width:  40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* footer styling */
+
+#footer{
+  background-color: #1F2833;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position:  static;
+  text-align: center;
+}
+
+#footerLinks{
+  display: table-cell;
+  padding-left:  5%;
+  padding-right:  5%;
+  margin-left:  5%;
+  margin-right:  5%; 
+  text-align: center;  
+  border-radius: 8px;
+  width:  20%;
+}
+
+#footerLinks:hover {
+  background-color: #256266;
+  color: #D9B08C;
+}
+
+#footerLinks:link {
+  text-decoration: none;
+  color: #D9B08C;
+}
+
+#footerLinks:visited {
+  text-decoration: none;
+  color: #D9B08C;
+}
+
+/* register page styling */
+
+.form {
+  display:  block;
+  color: #FFCB9A;
+  border-radius: 8px;
+  width:  80%;
+  height:  auto;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+/* buy page styling */
+
+#furnitureTag {
+  position: relative;
+}
+
+.sidebar {
+  list-style-type: none;
+  margin-left:  2em;
+  padding: 0;
+  width: 12em;
+  position:  absolute;  
+  background-color: #FFCB9A;
+  border-radius: 8px;
+ 
+}
+
+.filters {
+  display: inline-block;
+  color: #2C3531;
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid #2C3531; 
+  width:  11em;
+}
+
+.slider {
+  width:  75%;
+}
+
+
+.boxes {
+  float:   left;
+  display:  table-cell;
+  width:   15em;
+  height:  auto;
+  background-color: #FFCB9A;
+  border-radius: 8px;
+  padding:  5px;
+  color:  #2C3531;
+  position:  static;
+  transform: translate(10em, 0);
+  margin-left: 6em;
+  margin-top:  1em;
+}
+
+
+.boxes:hover {
+  background-color: #D9B08C;
+}
+
+#listPic {
+  position:  relative;  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top:  0.5em;
+}
+/* sell page styling */
+
+.sellOptions {
+  display:  inline-block;
+  background-color: #FFCB9A;
+  border-radius: 8px;
+  padding:  1em;
+  color:  #2C3531;
+  width:  30%;
+  height:  2em;
+}
+
+.sellOptions:hover{
+  background-color: #D9B08C;  
+}
